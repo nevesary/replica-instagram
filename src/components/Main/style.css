@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap'); 
+ 
+* {
+    font-style: normal;
+    padding: 0;
+}
+.containers {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: normal;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container-itens {
+    width: 317px;
+    height: 350px;
+    margin-top: -17px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+#placeholder-password::placeholder {
+    color: grey;
+    padding: 6px;
+}
+
+#placeholder-email::placeholder {
+    color: grey ;
+    padding: 6px;
+}
+
+.imglogo {
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.camp {
+    margin-bottom: 6px;
+    padding: 2px;
+    height: 35px;
+    width: 270px;
+    font-size: 12px;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+
+}
+
+.divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container button {
+    margin-top: 6px;
+    height: 30px;
+    width: 275px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(21, 142, 255);
+
+}
+
+.linha {
+    width: 106px;
+    height: 1px;
+    background: gainsboro;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+
+}
+
+.linhas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    align-items: center;
+}
+
+.container2 {
+    width: 363px;
+    height: 65px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.dif {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+
+.footer {
+    width: 372px;
+    height: 65px;
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.baixeinst img {
+    width: 40%;
+}
+
+.titulo2 {
+    font: normal;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.baixeinst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.esqsenha {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.linksfaceb {
+    font-size: large;
+    color: #385185;
+    margin-bottom: 8px;
+}
+
+.entrarcomf {
+    color: #29006b;
+    text-decoration: none;
+}
+
+.ou {
+    color: gray;
+    font-size: 20px;
+}
+
+.btnmostrar {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 11px;
+}
